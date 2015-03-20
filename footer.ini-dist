@@ -1,1 +1,2 @@
-footer_enable = 0
+footer_enable = 1
+footer_modules = 'gittobook'
