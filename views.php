@@ -3,7 +3,7 @@
 class footer_views {
     
     public static function main() {
-        $site = config::getSchemeWithServerName();
+        $site = conf::getSchemeWithServerName();
         $str = lang::translate('Footer license');
         $str = <<<EOF
 <small>
