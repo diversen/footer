@@ -1,5 +1,7 @@
 <?php
 
+use diversen\conf;
+use diversen\moduleloader;
 
 class footer {
 
