@@ -1,5 +1,9 @@
 <?php
 
+use diversen\conf;
+use diversen\lang;
+use diversen\template;
+
 class footer_views {
     
     public static function main() {
