@@ -1,10 +1,11 @@
 <?php
 
+namespace modules\footer;
 use diversen\conf;
 use diversen\lang;
 use diversen\template;
 
-class footer_views {
+class views {
     
     public static function main() {
         $site = conf::getSchemeWithServerName();

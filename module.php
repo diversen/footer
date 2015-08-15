@@ -1,9 +1,13 @@
 <?php
 
+namespace modules\footer;
+
 use diversen\conf;
 use diversen\moduleloader;
 
-class footer {
+use modules\footer\views;
+
+class module {
 
     public function runLevel($level){
         // run after language has been loaded
@@ -15,7 +19,7 @@ class footer {
                         return;
                     }
                 }
-                footer_views::main();
+                views::main();
             }
         }
     }
