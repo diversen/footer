@@ -15,6 +15,7 @@ class module {
             if (conf::getModuleIni('footer_enable')) {
                 if ($mods = conf::getModuleIni('footer_modules')) {
                     $mods = explode(',', $mods);
+                    moduleloader::$running;
                     if (!in_array(moduleloader::$running, $mods)) {
                         return;
                     }
