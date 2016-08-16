@@ -10,9 +10,10 @@ class views {
     public static function main() {
         $site = conf::getSchemeWithServerName();
         $str = lang::translate('Footer license');
+        $year = strftime("%Y");
         $str = <<<EOF
 <small>
-© $site, $str
+© $site, $year. $str
 </small>
 EOF;
         template::setEndContent($str);
